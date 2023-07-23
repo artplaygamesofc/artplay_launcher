@@ -27,6 +27,10 @@ dependencies:
   rxdart: ^0.27.5
   logging: ^1.0.2
 
+  bottom_nav_bar:
+    git:
+      url: https://github.com/artplaygamesofc/bottom_nav_bar.git
+      ref: main
 
 dev_dependencies:
   flutter_test:
@@ -40,3 +44,8 @@ flutter:
   assets:
     - assets/images/ic_icon.png
     - assets/images/ic_launcher_background.png
+
+  fonts:
+    - family: ArtplayIcons
+      fonts:
+        - asset: fonts/MaterialIcons-Regular.otf

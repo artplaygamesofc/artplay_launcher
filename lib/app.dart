@@ -3,6 +3,7 @@
 // found in the LICENSE file.
 
 // Internal
+import 'package:artplay_launcher/bloc/ui/pager_bloc.dart';
 import 'package:artplay_launcher/bloc/download/download_bloc.dart';
 import 'package:artplay_launcher/ui/root/root.dart';
 
@@ -46,6 +47,10 @@ class ArtplayLauncherAppState extends State<ArtplayLauncherApp> {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
+        Provider<PagerBloc>(
+          create: (_) => PagerBloc(),
+          dispose: (_, value) => value.dispose(),
+        ),
         Provider<DownloadBloc>(
           create: (_) => DownloadBloc(),
           dispose: (_, value) => value.dispose(),

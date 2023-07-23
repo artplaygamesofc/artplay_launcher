@@ -15,6 +15,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.0"
+  bottom_nav_bar:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: "7b81f64aae89421f0ad34870ba4e1291be1f27fd"
+      url: "https://github.com/artplaygamesofc/bottom_nav_bar.git"
+    source: git
+    version: "0.0.1"
   characters:
     dependency: transitive
     description:
@@ -185,5 +194,5 @@ packages:
     source: hosted
     version: "2.1.2"
 sdks:
-  dart: ">=2.17.6 <3.0.0"
-  flutter: ">=1.16.0"
+  dart: ">=2.18.2 <3.0.0"
+  flutter: ">=1.17.0"
