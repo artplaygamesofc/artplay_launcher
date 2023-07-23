@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // Internal
-import 'package:launcher/bloc/bloc.dart';
+import 'package:artplay_launcher/bloc/bloc.dart';
 
 // Packages
 import 'package:logging/logging.dart';

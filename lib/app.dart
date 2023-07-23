@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 // Internal
-import 'package:launcher/bloc/download/download_bloc.dart';
-import 'package:launcher/ui/root/root.dart';
+import 'package:artplay_launcher/bloc/download/download_bloc.dart';
+import 'package:artplay_launcher/ui/root/root.dart';
 
 // Flutter
 import 'package:flutter/material.dart';

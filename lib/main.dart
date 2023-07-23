@@ -3,7 +3,7 @@
 // found in the LICENSE file.
 
 // Internal
-import 'package:launcher/app.dart';
+import 'package:artplay_launcher/app.dart';
 
 // Flutter
 import 'package:flutter/material.dart';
