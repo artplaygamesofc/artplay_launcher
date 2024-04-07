@@ -32,6 +32,11 @@ dependencies:
       url: https://github.com/artplaygamesofc/bottom_nav_bar.git
       ref: main
 
+  samp_query:
+    git:
+      url: https://github.com/artplaygamesofc/samp_query.git
+      ref: main
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
