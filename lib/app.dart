@@ -3,6 +3,7 @@
 // found in the LICENSE file.
 
 // Flutter
+import 'package:artplay_launcher/ui/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -75,10 +76,11 @@ class ArtplayLauncherAppState extends State<ArtplayLauncherApp> {
           dispose: (_, value) => value.dispose(),
         ),
       ],
-      child: const MaterialApp(
+      child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Artplay: launcher',
-        home: Root(title: 'Artplay: launcher'),
+        home: const Root(title: 'Artplay: launcher'),
+        theme: CustomTheme.createTheme,
       ),
     );
   }
