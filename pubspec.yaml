@@ -53,4 +53,14 @@ flutter:
   fonts:
     - family: ArtplayIcons
       fonts:
-        - asset: fonts/MaterialIcons-Regular.otf
+        - asset: assets/fonts/MaterialIcons-Regular.otf
+
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Rubik-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Rubik-Bold.ttf
+          weight: 700
+

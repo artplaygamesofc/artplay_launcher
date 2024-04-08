@@ -4,7 +4,9 @@
 
 // Internal
 import 'package:artplay_launcher/bloc/ui/pager_bloc.dart';
+import 'package:artplay_launcher/ui/colors.dart';
 import 'package:artplay_launcher/ui/icons.dart';
+import 'package:artplay_launcher/ui/servers/servers.dart';
 
 // Flutter
 import 'package:flutter/material.dart';
@@ -50,7 +52,7 @@ class _RootState extends State<Root> {
                 case 0:
                   return const Text("Launcher");
                 case 1:
-                  return const Text("Servidores");
+                  return const Servers();
                 case 3:
                   return const Text("Definições");
                 default:
@@ -67,8 +69,8 @@ class _RootState extends State<Root> {
           final index = snapshot.data ?? 0;
 
           return BottomNavBar(
-            backgroundColor: const Color(0xFF303030),
-            selectedColor: const Color(0xFF459F47),
+            backgroundColor: AppColors.background,
+            selectedColor: AppColors.primary,
             selectedIndex: index,
             onTap: pager.changePage,
             items: <BottomNavBarItem>[
