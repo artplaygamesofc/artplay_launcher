@@ -36,13 +36,13 @@ class ServerTile extends StatelessWidget {
   /// All parameters are required and must be provided when creating an
   /// instance of [ServerTile].
   const ServerTile({
-    Key? key,
+    super.key,
     required this.hostname,
     required this.address,
     required this.gamemode,
     required this.players,
     required this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

@@ -16,7 +16,7 @@ import 'package:logging/logging.dart';
 import 'package:provider/provider.dart';
 
 class Servers extends StatefulWidget {
-  const Servers({Key? key}) : super(key: key);
+  const Servers({super.key});
 
   @override
   State<Servers> createState() => _ServersState();

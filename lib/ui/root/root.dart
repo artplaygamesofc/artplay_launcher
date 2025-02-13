@@ -19,9 +19,9 @@ class Root extends StatefulWidget {
   final String title;
 
   const Root({
-    Key? key,
+    super.key,
     required this.title,
-  }) : super(key: key);
+  });
 
   @override
   State<Root> createState() => _RootState();

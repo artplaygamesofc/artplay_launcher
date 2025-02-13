@@ -14,7 +14,7 @@ abstract class CustomTheme {
     primaryColor: AppColors.mWhite,
     brightness: Brightness.dark,
     hintColor: AppColors.mWhite,
-    shadowColor: Colors.black.withOpacity(0.4),
+    shadowColor: Colors.black.withValues(alpha: 0.4),
     textTheme: const TextTheme(
       displayLarge: TextStyle(
         fontSize: 22.0,

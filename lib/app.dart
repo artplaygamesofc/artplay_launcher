@@ -44,7 +44,7 @@ class ArtplayLauncherApp extends StatefulWidget {
   late ServerRepository serverRepository;
   late ServerService serverService;
 
-  ArtplayLauncherApp({Key? key}) : super(key: key) {
+  ArtplayLauncherApp({super.key}) {
     serverRepository = ServerRepository();
 
     serverService = ServerService(
